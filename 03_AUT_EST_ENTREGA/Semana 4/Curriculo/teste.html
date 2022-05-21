@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Alan Rozensztajn Schipper">
+      <title>Curriculo</title>
+      <link rel="stylesheet" href="style.css">
+     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        $(document).ready(function(){
+      $("#telefone").click(function(){
+        $("#number").append(" <b> 21 979676712 </b>.");
+      });
+      
+      $(document).ready(function(){
+  $("#esconder").click(function(){
+    $("#Imagem").hide();
+  });
+  $("#aparecer").click(function(){
+    $("#Imagem").show();
+  });
+});
+
+    });
+  
+      </script>
+      
+    </head>
+
+    <body style="background-color: gray;">
+    
+      <section class="Centralizar">
+
+
+        <h1 id="Curriculo">Curriculo Alan Schipper</h1>
+
+
+        <div>
+         
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHj7fA7YMs4AA/profile-displayphoto-shrink_800_800/0/1644549444037?e=1656547200&v=beta&t=9tT9rkp5e5-QxwWbJ2IOkJaqL3PQofihiTxvibcTIsU" weight="100" height="200"
+          alt="Alan Rozensztajn Schipper" id="Imagem">
+        </div>
+        <button id="esconder">Clique para esconder imagem</button>
+        <button id="aparecer">Clique para aparecer a imagem</button>
+    
+        <H2 id="Formacao">Formação</H2>
+        
+        <p id="Formacaotexto">Liessin, Rio De Janeiro (2003-2016) <br>
+        Torrey Pines High School, San Diego , California (2017-2019) <br>
+        San Diego Mesa College, San Diego , California (2019-2021) <br>
+        Inteli, Sao Paulo (2022-2025)
+        </p>
+
+        <div class="bruno">
+        <h2 id="qualificacoes">Qualificações</h2>
+        
+        
+        <p id="qualificacoestexto">Experiencia avancada em Exccel <br>
+        Engenheiro Assistente em empresa de automocao de casas <br>
+        Ingles Fluente <br>
+        Espanhol Fluente <br>
+        Hebraico Intermediario <br>
+        Experiencia avancada em python <br>
+        Experiencia em GdScript
+        </p>
+    
+      
+      </div>
+    
+       <h2>Histórico Profissional</h2>
+    
+       <p id="historicotexto">
+        Engenheiro Assistente na SD Smart Engineer 2019-2021(San Diego , California) <br>
+        Estagiario na Schipper Engenharia 2021-2021
+        
+        </p>
+    
+    <h2 id="contatos">Contatos</h2>
+    <p>
+        Email - alan.schipper@sou.inteli.edu.br
+        
+        <div class="Bruno2">
+          <div>
+            <a href="mailto:arozenschip@gmail.com"><img class="Gmail" src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="email para cego"></a>
+            <div class="Bruno6">
+            <!-- <a href="mailto:arozenschip@gmail.com">arozenschip@gmail.com</a>  -->
+            </div>
+          </div> 
+        <a href ="https://www.linkedin.com/in/alan-rozensztajn-schipper-0563701ba/" target="_blanck"> <img class="Linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin"></a>
+        <a href="https://github.com/MrSchipRozen" target="_blank"> <img class="Github" src="https://static.techspot.com/images2/downloads/topdownload/2021/04/2021-04-07-ts3_thumbs-8ba.png" alt="Github"></a>
+        <!-- weight= "20" height= "20 " --> 
+        </div>
+      </p>
+    </section>
+
+    <h3 id="number">Numero de telefone</h3>
+
+    <button id="telefone">Clique para aparecer numero de telefone</button>
+    
+    </body>
+  </html>
