@@ -1,0 +1,83 @@
+
+body{
+    background-color: gray;
+}
+
+
+
+
+.titulo {
+    justify-content: center;
+    color: black;
+    font-size: large;
+}
+
+.butao 
+{
+    font-size: medium;
+    color: black;
+}
+
+h1 
+{
+    color: black;
+    font-size: small;
+}
+
+h3
+{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input
+{
+    color: black;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+#pequeno
+{
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+#botaocalc
+{
+    margin-top: 5px;
+
+}
+
+#Exercicio1
+{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Nome
+{
+   
+    font-size: xx-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#exercicio2
+{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#caixa2
+{
+    margin-left: 0px;
+    float: both;
+}
+
+
+#botaocalc
+{
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-left: 105px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"> </script>
+    <link rel="stylesheet"type="text/css"href="style.css">
+    <title>Exercício</title>
+</head>
+<body>
+    <div class="titulo">
+    <h1 id="Nome">Exercício de Alan Rozensztajn Schipper, Turma 2</h1>
+    <h1 id="Exercicio1">Exercício 1</h1>
+        <div>
+            <h3>Informe os valores:</h3>
+        </div>
+        <div>
+            <input type="number" placeholder="Informe o valor 1" id="number1">
+            <input type="number" placeholder="Informe o valor 2" id="number2">
+        </div>
+        <div>
+            <h3 id="pequeno">Informe qual operação deseja fazer</h3>
+            <select id="op"> -->
+                <option value="*">*    multiplicação</option>
+                <option value="+">+    soma</option>
+                <option value="-">-    subtração</option>
+                <option value="/">/    divisão</option>
+                <option value="**">**  elevar</option>
+                <option value="%">%    divisao do resto</option>
+            </select>
+        </div>
+        <div id="botaocalc">
+            <button id="caixa1" onclick="CalcAndShow(number1,number2)">Calcular</button>
+        </div>
+        <div>
+            <p id="tempo"></p>
+        </div>
+    </div>
+
+        
+    <h1 id="exercicio2">Exercício 2</h1>
+        <form name="form1" action="caixa.html" method="get">
+         <h3>Insira o valor que deseja sacar</h3>
+         <input type="number" placeholder="informe o valor "step="1" name="valor" id="valor" >
+         <input id="caixa2" type="button" name="botao" onclick= "caixa();" value="Calcular">
+     </form>
+    <div id="recebe"></div>
+    </div>
+</body>
+</html>
