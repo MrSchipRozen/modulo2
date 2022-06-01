@@ -1,2 +1,6 @@
 var element = document.getElementById('element');
-alert = ('Bem vindo ao curriculo')
+
+
+function alerta() {
+    alert("(021-979676712)");
+  }
