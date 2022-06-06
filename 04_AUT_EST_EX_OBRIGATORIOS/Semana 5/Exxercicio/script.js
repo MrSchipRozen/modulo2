@@ -17,6 +17,7 @@ function Calcu(x, y, op){
     let resultado;
     resultado = eval(x + op + y) 
     return resultado;
+    
 };
 
 
@@ -68,4 +69,18 @@ function caixa()
     // + ' moedas de 50 centavos: ' + moedasdecinquenta + ' moedas de vinte e cinco centavos: ' + moedasdevintecinco
 
 }
+
+
+// var numberArray= document.getElementById('valorfoco').value;
+// var numeroValorFoco= document.getElementById('valorfoco').value;
+
+// numberArray=numberArray.split(',')
+// function compararNumeros(a,b){
+//     return a-b;
+   
+// }
+// console.log(numberArray.sort(compararNumeros))
+// var posicaoDoValorFoco = array.indexOf(numeroValorFoco);
+// console.log(posicaoDoValorFoco)
+
 

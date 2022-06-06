@@ -1,0 +1,21 @@
+#pagina {
+    background-color: lightblue;
+    height: 1000px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: grey;
+    margin-top: 200px;
+}
+
+#valor
+{
+    margin-left: 200px;
+    height: 50px;
+    background-color: gray;
+}

@@ -22,14 +22,23 @@
         <div>
             <h3 id="pequeno">Informe qual operação deseja fazer</h3>
             <select id="op"> -->
-                <option value="*">*    multiplicação</option>
+                <option value="*" id="">*    multiplicação</option>
                 <option value="+">+    soma</option>
                 <option value="-">-    subtração</option>
                 <option value="/">/    divisão</option>
                 <option value="**">**  elevar</option>
                 <option value="%">%    divisao do resto</option>
+
+
             </select>
+
+
+
         </div>
+
+
+
+
         <div id="botaocalc">
             <button id="caixa1" onclick="CalcAndShow(number1,number2)">Calcular</button>
         </div>
@@ -47,5 +56,18 @@
      </form>
     <div id="recebe"></div>
     </div>
+
+
+    <h1 id="exercicio2">Exercício 3</h1>
+        <form name="form1" action="caixa.html" method="get">
+         <h3>Insira os valores</h3>
+         <input type="number" placeholder="informe o valor "step="1" name="valor" id="valorfoco" >
+         <input id="caixa2" type="button" name="botao" onclick= "caixa();" value="Calcular">
+     </form>
+    <div id="recebe"></div>
+    </div>
+
+
 </body>
+
 </html>

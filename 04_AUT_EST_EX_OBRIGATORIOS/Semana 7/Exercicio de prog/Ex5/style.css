@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+}
+
+.botao {
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: grey;
+    margin-top: 200px;
+    
+}
