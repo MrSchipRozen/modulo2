@@ -1,17 +1,23 @@
-
 function calcular() {
-    
-    let a = document.getElementById('nn1').value;
-    var c = a.split("");
-    var d = c.map(Number);
-    var total = 0
-    
-    
-    for(let b=0 ; b < d.lenght; b++) {
-        total += d[b]; 
+    document.getElementById("resultado").innerHTML = ""
 
+    let a = document.getElementById('nn1').value;
+    let b = document.getElementById('nn2').value;
+
+for(let i = a; i<=b; i++){
+
+    let primo = 0;
+    for (let x = 2; x < i; x++) {
+    console.log("try")
+      if(i % x == 0){
+        primo++;
+      }
     }
-    
-    console.log(total)
-    
+
+    if(primo==0){
+      //vai mostra na tela os numeros primos um a um
+        document.getElementById('resultado').innerHTML += i + "<br>"
+    }
+}
+
 }
