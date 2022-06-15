@@ -77,7 +77,7 @@ function caixa()
 // numberArray=numberArray.split(',')
 // function compararNumeros(a,b){
 //     return a-b;
-   
+
 // }
 // console.log(numberArray.sort(compararNumeros))
 // var posicaoDoValorFoco = array.indexOf(numeroValorFoco);
