@@ -5,8 +5,8 @@ Minhas entregas estão definidas aqui:
 ## Obrigatórios
 <a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 3 </a>
 <br>
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/05_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 5 </a>
+<a href="https://github.com/MrSchipRozen/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/Exxercicio"> 19/04/2022 - Entrega 5 </a>
 <br>
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/07_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 7 </a>
+<a href="https://github.com/MrSchipRozen/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207/Exercicio%20de%20prog"> 19/04/2022 - Entrega 7 </a>
 <br>
-<a href="https://github.com/Intelihub/Template_Aluno/blob/main/09_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 9 </a>
+<a href="https://github.com/MrSchipRozen/modulo2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%209"> 19/04/2022 - Entrega 9 </a>
